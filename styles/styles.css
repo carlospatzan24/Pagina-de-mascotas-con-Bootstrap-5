@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(248, 249, 250);
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+h1, h2, h3, .navbar-brand {
+    font-family: 'Fredoka One', cursive;
+}
+
+h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 2rem 0;
+    display: flex;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(44, 62, 80);
+    padding-bottom: 10px;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+h2:after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 4px;
+    background: rgb(255, 107, 107);
+    bottom: 0;
+    left: 25%;
+    border-radius: 2px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: rgb(44, 62, 80);
+}
+
+.navbar {
+    background-color: rgb(44, 62, 80) ;
+    padding: 1rem 0;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255) ;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255) ;
+    font-size: 1.1rem;
+    margin: 0 10px;
+    position: relative;
+}
+
+.nav-link:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: rgb(255, 107, 107);
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover:after {
+    width: 100%;
+}
+
+.card-mascota {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
+    height: 100%;
+}
+
+.card-mascota:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-mascota img {
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.card-mascota:hover img {
+    transform: scale(1.1);
+}
+
+.card-body {
+    padding: 25px;
+}
+
+.boton-mas-informacion {
+    background-color: rgb(255, 107, 107);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.boton-mas-informacion:hover {
+    background-color: rgb(255, 71, 87);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+}
+
+.icono-servicios {
+    font-size: 3rem;
+    color: rgb(255, 107, 107);
+    margin-bottom: 20px;
+}
+
+.carousel-item img {
+    height: 70vh;
+    object-fit: cover;
+    width: 100%;
+}
+
+.carousel-item image.d-none {
+    display: block !important;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+    max-width: 80%;
+}
+
+.carousel-caption.d-none {
+    display: block !important;
+}
+
+.footer-links ul li {
+    margin-bottom: 1.5vh;
+}
+
