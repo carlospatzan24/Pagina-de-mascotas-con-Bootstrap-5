@@ -14,232 +14,233 @@
 
 </head>
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="inicio" >
-        <div class="container"  >
-            <a class="navbar-brand" href="#">
-                <i class="bi bi-paw-heart me-2"></i>Página de Mascotas con Bootstrap 5
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav" >
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#galeria">Galería</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#servicios">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#adopciones">Adopciones</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contacto">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <section class="py-5 fade-in-section" id="galeria">
-        <div class="container">
-            <h2 class="text-center mb-5">Carrusel de fotos de nuestros amigos peludos</h2>
-            <div id="Carrusel-mascotas" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#Carrusel-mascotas" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#Carrusel-mascotas" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#Carrusel-mascotas" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#Carrusel-mascotas" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                </div>
-                <div class="carousel-inner rounded-3 overflow-hidden">
-                    <div class="carousel-item active">
-                        <img 
-                        src="https://cdn.sentidoanimal.es/wp-content/uploads/2019/07/Pastor-alem%C3%A1n.jpg" 
-                        class="d-block w-100" 
-                        alt="Perro pastor alemán jugando">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Diversión garantizada</h5>
-                            <p>El parque canino es el lugar perfecto para que tu mascota socialice y se divierta.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img 
-                        src="https://pampermut.com/blog/wp-content/uploads/2020/04/Como-dar-de-comer-a-un-gato-bebe-blog-de-pampermut.jpg" 
-                        class="d-block w-100" 
-                        alt="Gato bebé siendo cuidado">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Cuidado felino especializado</h5>
-                            <p>Entendemos las necesidades únicas de tus amigos felinos.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img 
-                        src="https://www.rover.com/blog/wp-content/uploads/2018/11/goldenre.jpg" 
-                        class="d-block w-100" 
-                        alt="Mascotas en adopción">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Adopciones responsables</h5>
-                            <p>Ayudamos a conectar mascotas necesitadas con hogares amorosos.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img 
-                        src="https://www.leonvet.es/update/tecnicas_de_adiestramiento_canino_21135_orig.jpg" 
-                        class="d-block w-100" 
-                        alt="Entrenamiento de perros">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Entrenamiento profesional</h5>
-                            <p>Tu mascota aprenderá con técnicas positivas y expertos en adiestramiento.</p>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#Carrusel-mascotas" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+    <main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="inicio" >
+            <div class="container"  >
+                <a class="navbar-brand" href="#">
+                    <i class="bi bi-paw-heart me-2"></i>Página de Mascotas con Bootstrap 5
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#Carrusel-mascotas" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-5 bg-light fade-in-section" id="servicios">
-        <div class="container">
-            <h2 class="text-center mb-5">Nuestros servicios</h2>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="card-mascota h-100">
-                        <img 
-                        src="https://cdn.nubika.es/wp-content/uploads/2021/05/hospital-de-perros.jpg" 
-                        class="card-img-top" 
-                        alt="Servicio veterinario">
-                        <div class="card-body">
-                            <div class="text-center">
-                                <i class="bi bi-heart-pulse icono-servicios"></i>
-                            </div>
-                            <h3 class="titulo-card text-center">Veterinaria</h3>
-                            <p class="card-texto">Servicio veterinario completo con profesionales calificados. Consultas, vacunación, cirugías y emergencias 24/7.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn boton-mas-informacion">Más información</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card-mascota h-100">
-                        <img 
-                        src="https://www.cimformacion.com/blog/wp-content/uploads/2020/09/peluquera-seca-perro.jpg" 
-                        class="card-img-top" 
-                        alt="Estética canina">
-                        <div class="card-body">
-                            <div class="text-center">
-                                <i class="bi bi-scissors icono-servicios"></i>
-                            </div>
-                            <h3 class="titulo-card text-center">Estética</h3>
-                            <p class="card-texto">Baño, corte de pelo, cepillado y tratamientos de belleza para que tu mascota luzca espectacular.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn boton-mas-informacion">Más información</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card-mascota h-100">
-                        <img 
-                        src="https://tomojo.co/cdn/shop/articles/couv_article_chiot_800x.png?v=1627488026" 
-                        class="card-img-top" 
-                        alt="Guardería para mascotas">
-                        <div class="card-body">
-                            <div class="text-center">
-                                <i class="bi bi-house-heart icono-servicios"></i>
-                            </div>
-                            <h3 class="titulo-card text-center">Guardería</h3>
-                            <p class="card-texto">Cuidado diario con áreas de juego, descanso y socialización supervisada por expertos.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn boton-mas-informacion">Más información</a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="collapse navbar-collapse" id="navbarNav" >
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#galeria">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#adopciones">Adopciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section class="py-5 fade-in-section" id="adopciones">
-        <div class="container">
-            <h2 class="text-center mb-5">Mascotas en adopción</h2>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-3">
-                    <div class="card card-mascota h-100">
-                        <img 
-                        src="https://img.freepik.com/foto-gratis/vista-lateral-perro-lindo-parque_23-2147902050.jpg" 
-                        class="card-img-top" 
-                        alt="Perro labrador en adopción">
-                        <div class="card-body">
-                            <h3 class="card-title">Max</h3>
-                            <p class="card-text">Labrador de 2 años, juguetón y cariñoso. Esterilizado y con todas sus vacunas al día.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn boton-mas-informacion">Adoptar</a>
+        </nav>
+    
+        <section class="py-5 fade-in-section" id="galeria">
+            <div class="container">
+                <h2 class="text-center mb-5">Carrusel de fotos de nuestros amigos peludos</h2>
+                <div id="Carrusel-mascotas" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#Carrusel-mascotas" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#Carrusel-mascotas" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#Carrusel-mascotas" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#Carrusel-mascotas" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner rounded-3 overflow-hidden">
+                        <div class="carousel-item active">
+                            <img 
+                            src="https://cdn.sentidoanimal.es/wp-content/uploads/2019/07/Pastor-alem%C3%A1n.jpg" 
+                            class="d-block w-100" 
+                            alt="Perro pastor alemán jugando">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Diversión garantizada</h5>
+                                <p>El parque canino es el lugar perfecto para que tu mascota socialice y se divierta.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img 
+                            src="https://pampermut.com/blog/wp-content/uploads/2020/04/Como-dar-de-comer-a-un-gato-bebe-blog-de-pampermut.jpg" 
+                            class="d-block w-100" 
+                            alt="Gato bebé siendo cuidado">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Cuidado felino especializado</h5>
+                                <p>Entendemos las necesidades únicas de tus amigos felinos.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img 
+                            src="https://www.rover.com/blog/wp-content/uploads/2018/11/goldenre.jpg" 
+                            class="d-block w-100" 
+                            alt="Mascotas en adopción">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Adopciones responsables</h5>
+                                <p>Ayudamos a conectar mascotas necesitadas con hogares amorosos.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img 
+                            src="https://www.leonvet.es/update/tecnicas_de_adiestramiento_canino_21135_orig.jpg" 
+                            class="d-block w-100" 
+                            alt="Entrenamiento de perros">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Entrenamiento profesional</h5>
+                                <p>Tu mascota aprenderá con técnicas positivas y expertos en adiestramiento.</p>
                             </div>
                         </div>
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#Carrusel-mascotas" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#Carrusel-mascotas" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card card-mascota h-100">
-                        <img 
-                        src="https://verdecora.es/blog/wp-content/uploads/2016/12/gato-siames-caracter-historia.jpg" 
-                        class="card-img-top"
-                        alt="Gata siamesa en adopción">
-                        <div class="card-body">
-                            <h3 class="card-title" >Luna</h3>
-                            <p class="card-text">Gata siamesa de 1 año, tranquila y afectuosa. Ideal para departamentos.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn boton-mas-informacion">Adoptar</a>
+            </div>
+        </section>
+    
+        <section class="py-5 bg-light fade-in-section" id="servicios">
+            <div class="container">
+                <h2 class="text-center mb-5">Nuestros servicios</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card-mascota h-100">
+                            <img 
+                            src="https://cdn.nubika.es/wp-content/uploads/2021/05/hospital-de-perros.jpg" 
+                            class="card-img-top" 
+                            alt="Servicio veterinario">
+                            <div class="card-body">
+                                <div class="text-center">
+                                    <i class="bi bi-heart-pulse icono-servicios"></i>
+                                </div>
+                                <h3 class="titulo-card text-center">Veterinaria</h3>
+                                <p class="card-texto">Servicio veterinario completo con profesionales calificados. Consultas, vacunación, cirugías y emergencias 24/7.</p>
+                                <div class="text-center">
+                                    <a href="#" class="btn boton-mas-informacion">Más información</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card card-mascota h-100">
-                        <img 
-                        src="data:image/jpeg;base64,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" 
-                        class="card-img-top" 
-                        alt="Perro bulldog francés en adopción">
-                        <div class="card-body" >
-                            <h3 class="card-title" >Rocky</h3>
-                            <p class="card-text" >Bulldog francés de 3 años, tranquilo y amigable. Perfecto para familias.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn boton-mas-informacion">Adoptar</a>
+                    <div class="col-md-4">
+                        <div class="card-mascota h-100">
+                            <img 
+                            src="https://www.cimformacion.com/blog/wp-content/uploads/2020/09/peluquera-seca-perro.jpg" 
+                            class="card-img-top" 
+                            alt="Estética canina">
+                            <div class="card-body">
+                                <div class="text-center">
+                                    <i class="bi bi-scissors icono-servicios"></i>
+                                </div>
+                                <h3 class="titulo-card text-center">Estética</h3>
+                                <p class="card-texto">Baño, corte de pelo, cepillado y tratamientos de belleza para que tu mascota luzca espectacular.</p>
+                                <div class="text-center">
+                                    <a href="#" class="btn boton-mas-informacion">Más información</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card card-mascota h-100">
-                        <img 
-                        src="https://static.diariofemenino.com/media/8162/gatosatigradosnombres.jpg" 
-                        class="card-img-top" 
-                        alt="Gato atigrado en adopción">
-                        <div class="card-body">
-                            <h3 class="card-title ">Milo</h3>
-                            <p class="card-text">Gato atigrado de 8 meses, energético y curioso. Le encanta jugar.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn boton-mas-informacion">Adoptar</a>
+                    <div class="col-md-4">
+                        <div class="card-mascota h-100">
+                            <img 
+                            src="https://tomojo.co/cdn/shop/articles/couv_article_chiot_800x.png?v=1627488026" 
+                            class="card-img-top" 
+                            alt="Guardería para mascotas">
+                            <div class="card-body">
+                                <div class="text-center">
+                                    <i class="bi bi-house-heart icono-servicios"></i>
+                                </div>
+                                <h3 class="titulo-card text-center">Guardería</h3>
+                                <p class="card-texto">Cuidado diario con áreas de juego, descanso y socialización supervisada por expertos.</p>
+                                <div class="text-center">
+                                    <a href="#" class="btn boton-mas-informacion">Más información</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-
+        </section>
+    
+        <section class="py-5 fade-in-section" id="adopciones">
+            <div class="container">
+                <h2 class="text-center mb-5">Mascotas en adopción</h2>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card card-mascota h-100">
+                            <img 
+                            src="https://img.freepik.com/foto-gratis/vista-lateral-perro-lindo-parque_23-2147902050.jpg" 
+                            class="card-img-top" 
+                            alt="Perro labrador en adopción">
+                            <div class="card-body">
+                                <h3 class="card-title">Max</h3>
+                                <p class="card-text">Labrador de 2 años, juguetón y cariñoso. Esterilizado y con todas sus vacunas al día.</p>
+                                <div class="text-center">
+                                    <a href="#" class="btn boton-mas-informacion">Adoptar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card card-mascota h-100">
+                            <img 
+                            src="https://verdecora.es/blog/wp-content/uploads/2016/12/gato-siames-caracter-historia.jpg" 
+                            class="card-img-top"
+                            alt="Gata siamesa en adopción">
+                            <div class="card-body">
+                                <h3 class="card-title" >Luna</h3>
+                                <p class="card-text">Gata siamesa de 1 año, tranquila y afectuosa. Ideal para departamentos.</p>
+                                <div class="text-center">
+                                    <a href="#" class="btn boton-mas-informacion">Adoptar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card card-mascota h-100">
+                            <img 
+                            src="data:image/jpeg;base64,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" 
+                            class="card-img-top" 
+                            alt="Perro bulldog francés en adopción">
+                            <div class="card-body" >
+                                <h3 class="card-title" >Rocky</h3>
+                                <p class="card-text" >Bulldog francés de 3 años, tranquilo y amigable. Perfecto para familias.</p>
+                                <div class="text-center">
+                                    <a href="#" class="btn boton-mas-informacion">Adoptar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card card-mascota h-100">
+                            <img 
+                            src="https://static.diariofemenino.com/media/8162/gatosatigradosnombres.jpg" 
+                            class="card-img-top" 
+                            alt="Gato atigrado en adopción">
+                            <div class="card-body">
+                                <h3 class="card-title ">Milo</h3>
+                                <p class="card-text">Gato atigrado de 8 meses, energético y curioso. Le encanta jugar.</p>
+                                <div class="text-center">
+                                    <a href="#" class="btn boton-mas-informacion">Adoptar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    </main>
     <footer class="footer bg-dark text-light py-4" id="contacto">
         <div class="container">
             <div class="row justify-content-center">
